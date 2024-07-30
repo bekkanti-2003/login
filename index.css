@@ -1,0 +1,100 @@
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../IMAGES/webpage\ bg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: transparent;
+    border: 2px solid rgb(55, 214, 172);
+    position: absolute;
+    top: 15%;
+    left: 470px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:blue;
+    font-size: 22px;
+    background-color: beige;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid blue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+
+}
+.login-button{
+    width: 240px;
+    height: 40px;
+    background-color: aquamarine;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    margin-left: 0px;
+}
+.login-button:hover{
+    background-color: white;
+    color: orange;
+}
+
+.login-button a{
+    text-decoration: none;
+    color: black;
+    font-family: bold;
+
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
